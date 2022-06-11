@@ -2,7 +2,7 @@ const config = require('./config');
 module.exports = {
     "balances": {
         [config.leader]: 100000000000,
-        "spk-cc": 0, //additional distributions
+        "zark-cc": 0, //additional distributions
         "ra": 0,
         "rb": 0,
         "rc": 0,
@@ -25,7 +25,8 @@ module.exports = {
         }
     },
     "gov": {
-        [config.leader]: 1,
+        [config.leader]: 100,
+        "zark-cc": 100,
         "t": 1 //total in other accounts
     },
     "markets": {
