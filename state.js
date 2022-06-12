@@ -40,7 +40,7 @@ module.exports = {
                 "escrows": 0,
                 "lastGood": 65170512, //genesisblock
                 "marketingRate": 0,
-                "self": [config.leader],
+                "self": config.leader,
                 "wins": 0,
                 "yays": 0
             }
